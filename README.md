@@ -8,7 +8,7 @@ This is a work in progress started on 2022-10-22 and shall be on version 1.0 at 
 
 ## Goal
 
-The goal is to evaluate the currently available resources for learning the Rust programming language to set together collection of resources. The collection shall form a path for learning Rust in a complete way within minimal time.
+The goal is to evaluate the currently available resources for learning the Rust programming language to set together a collection of resources. The collection shall form a path for learning Rust in a complete way within minimal time.
 
 ## References
 
