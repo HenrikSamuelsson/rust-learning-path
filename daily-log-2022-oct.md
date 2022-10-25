@@ -32,3 +32,9 @@ Turned out that I had installed Rust already on my work computer.
 $ rustc --version
 rustc 1.61.0 (fe5b13d68 2022-05-18)
 ```
+
+## 2022-10-25
+
+### The Rust Programming Language
+
+Decided that the first book to read will be [The Rust Programming Language](https://doc.rust-lang.org/book/). This is a free resource published online in html format. Also found a pdf version online that I found more readable due to being a "latex-style" formatted.
