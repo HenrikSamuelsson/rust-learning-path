@@ -24,7 +24,7 @@ Benefits are that Rust is safer, built in support of elements that requires thir
 
 ### Installation Work Computer
 
-Rust be installed on a Windows machine by following the instructions at [Rust - Install Rust](https://www.rust-lang.org/tools/install)
+Rust can be installed on a Windows machine by following the instructions at [Rust - Install Rust](https://www.rust-lang.org/tools/install).
 
 Turned out that I had installed Rust already on my work computer.
 
@@ -38,4 +38,3 @@ rustc 1.61.0 (fe5b13d68 2022-05-18)
 ### The Rust Programming Language
 
 Decided that the first book to read will be [The Rust Programming Language](https://doc.rust-lang.org/book/). This is a free resource published online in html format. Also found a pdf version online that I found more readable due to being a "latex-style" formatted.
-
