@@ -39,6 +39,27 @@ rustc 1.61.0 (fe5b13d68 2022-05-18)
 
 Decided that the first book to read will be [The Rust Programming Language](https://doc.rust-lang.org/book/). This is a free resource published online in html format. Also found a pdf version online that I found more readable due to being a "latex-style" formatted.
 
+## 2022-10-29
+
+## Guessing Game
+
+Implemented the classical number guessing game in Rust as described in chapter 2 of The Rust Programming Language book.
+
+Learned about:
+
+- Console input and output
+- Number parsing from text
+- Comparison of numbers
+- Setting library dependencies in the Cargo.toml file
+- Using third party library crates
+- Generation of random numbers in Rust
+- Looping
+- Match expressions
+
+Cannot personally remember seeing something similar to the match expression in other programming languages so this was interesting.
+
+> A match expression is made up of arms. An arm consists of a pattern to match against, and the code that should be run if the value given to match fits that arm’s pattern. Rust takes the value given to match and looks through each arm’s pattern in turn.
+
 ## 2022-10-30
 
 ### The Embedded Rust Book
