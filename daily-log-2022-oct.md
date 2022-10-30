@@ -24,7 +24,7 @@ Benefits are that Rust is safer, built in support of elements that requires thir
 
 ### Installation Work Computer
 
-Rust can for Windows be installed by following the instructions at [Rust - Install Rust](https://www.rust-lang.org/tools/install)
+Rust can be installed on a Windows machine by following the instructions at [Rust - Install Rust](https://www.rust-lang.org/tools/install).
 
 Turned out that I had installed Rust already on my work computer.
 
