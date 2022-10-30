@@ -38,3 +38,9 @@ rustc 1.61.0 (fe5b13d68 2022-05-18)
 ### The Rust Programming Language
 
 Decided that the first book to read will be [The Rust Programming Language](https://doc.rust-lang.org/book/). This is a free resource published online in html format. Also found a pdf version online that I found more readable due to being a "latex-style" formatted.
+
+## 2022-10-30
+
+### The Embedded Rust Book
+
+Found out about the online book [The Embedded Rust Book](https://docs.rust-embedded.org/book/). This is an An introductory book about using the Rust on "bare metal" embedded systems, such as microcontrollers. Plan is to read this book.
