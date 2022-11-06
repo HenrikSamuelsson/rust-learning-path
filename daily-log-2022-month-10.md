@@ -1,4 +1,4 @@
-# Daily Log
+# Daily Log October 2022
 
 Notes on the daily steps taken during completion of this Rust Learning Path project.
 
