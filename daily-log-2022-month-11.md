@@ -13,4 +13,3 @@ Found a list of Rust courses at [Class Central - "10 Best Rust Courses to Take i
 ### Intro to Rust Functions
 
 Read about functions, noted that there does not seem to be any need for forward declaration of functions, at least not in the same file. Also learned that the last expression in a function will be returned and this line shall not end with a semicolon since it would then be a statement and not an expression. Me personally does not like that it is done this way when being used to that there should be a return keyword to return something from a function.
-
