@@ -46,3 +46,26 @@ info: cleaning up downloads & tmp directories
 ```
 
 Turned out that there was now a 1.65 version so the book is behind. Choose to go with version 1.65 anyway figuring that the book will catch up sooner or later anyway.
+
+### About Rust Installation
+
+There is a tool called rustup used to manage rust versions and associated tools. THis is not to be confused with the tool called rustc that is the Rust compiler.
+
+Example usages:
+
+```txt
+$  rustup --version
+rustup 1.25.1 (bb60b1e89 2022-07-12)
+info: This is the version for the rustup toolchain manager, not the rustc compiler.
+info: The currently active `rustc` version is `rustc 1.65.0 (897e37553 2022-11-02)`
+```
+
+```txt
+$ rustup update
+info: syncing channel updates for 'stable-x86_64-pc-windows-msvc'
+info: checking for self-updates
+
+  stable-x86_64-pc-windows-msvc unchanged - rustc 1.65.0 (897e37553 2022-11-02)
+
+info: cleaning up downloads & tmp directories
+```
