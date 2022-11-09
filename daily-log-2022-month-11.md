@@ -69,3 +69,7 @@ info: checking for self-updates
 
 info: cleaning up downloads & tmp directories
 ```
+
+## 2022-11-09
+
+Received delivery of a development board called [STM32F303 Discovery kit](https://www.st.com/en/evaluation-tools/stm32f3discovery.html). Will use this to try embedded Rust development, but will first need to learn Rust in general better. Anyway the board have an Arm M4 based MCU, an acceleration sensor, LED's and a user push button, and a USB debug port. Should be useful as it stands for a wide variety of experiments with embedded Rust.
