@@ -73,3 +73,32 @@ info: cleaning up downloads & tmp directories
 ## 2022-11-09
 
 Received delivery of a development board called [STM32F303 Discovery kit](https://www.st.com/en/evaluation-tools/stm32f3discovery.html). Will use this to try embedded Rust development, but will first need to learn Rust in general better. Anyway the board have an Arm M4 based MCU, an acceleration sensor, LED's and a user push button, and a USB debug port. Should be useful as it stands for a wide variety of experiments with embedded Rust.
+
+## 2022-11-10
+
+Reading up on the Rust build system called Cargo. Checked what version of Cargo that I have:
+
+```txt
+$ cargo --version
+cargo 1.65.0 (4bc8f24d3 2022-10-20)
+```
+
+Then took cargo for a test-run by creating a dummy project, building, and running:
+
+```txt
+$ cargo new hello
+     Created binary (application) `hello` package
+
+$ cd hello
+
+$ cargo build
+   Compiling hello v0.1.0 (H:\temporary\hello)
+    Finished dev [unoptimized + debuginfo] target(s) in 10.50s
+
+$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 2.13s
+     Running `target\debug\hello.exe`
+Hello, world!
+```
+
+Have done this before in powershell and now tested with Windows cmd prompt, this worked equally well.
