@@ -108,3 +108,9 @@ Have done this before in powershell and now tested with Windows cmd prompt, this
 ### The Rust **const** Keyword
 
 Learned about the **const** keyword that can be used to create constant values that the entire program can always see and use. Could for example use this keyword to define pi (3.14159...). Seem to have similarities with the C preprocessor #define but constants in Rust have a type so the compiler can check the usage for us.
+
+## 2022-11-12
+
+### Rust Update
+
+Updated Rust to version 1.65 on home computer, using the shell command `rustup update`.
