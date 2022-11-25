@@ -65,3 +65,13 @@ Cannot personally remember seeing something similar to the match expression in o
 ### The Embedded Rust Book
 
 Found out about the online book [The Embedded Rust Book](https://docs.rust-embedded.org/book/). This is an An introductory book about using the Rust on "bare metal" embedded systems, such as microcontrollers. Plan is to read this book.
+
+## 2022-11-25
+
+### Slow Progress
+
+Need some motivation why to get going with this again, here is a list:
+
+- Can use Rust for competitive coding
+- Do not need to use C in projects that slow me down due to being error prone
+- Great for the brain to learn new things in general
