@@ -15,3 +15,8 @@ The goal is to evaluate the currently available resources for learning the Rust 
 [Steve Branam, "Learning Rust for Embedded Systems", accessed 2022-10-22](https://www.embeddedrelated.com/showarticle/1432.php)  
 [Feabhas, "Why Rust won't replace C (just yet anyway)", accessed 2022-10-23](https://youtu.be/ojEXMM_1bVA)  
 [Shaun Hamilton, "Rust Programming Course for Beginners", accessed 2022-11-06](https://youtu.be/MsocPEZBd-M)  
+[Learn Rust, accessed 2023-09-24](https://www.rust-lang.org/learn)  
+
+### Books
+
+[The Rust Programming Language](https://play.google.com/store/books/details/Steve_Klabnik_The_Rust_Programming_Language_2nd_Ed?id=a8l9EAAAQBAJ)  
