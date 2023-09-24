@@ -4,7 +4,7 @@ Collection of resources for learning the Rust programming language.
 
 ## Status
 
-This is a work in progress started on 2022-10-22 and shall be on version 1.0 at 2023-01-31.
+This is a work in progress started on 2022-10-22 and shall be on version 1.0 at 2024-01-31.
 
 ## Goal
 
