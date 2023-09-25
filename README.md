@@ -19,4 +19,4 @@ The goal is to evaluate the currently available resources for learning the Rust 
 
 ### Books
 
-[The Rust Programming Language](https://play.google.com/store/books/details/Steve_Klabnik_The_Rust_Programming_Language_2nd_Ed?id=a8l9EAAAQBAJ)  
+[The Rust Programming Language, Second Edition](https://play.google.com/store/books/details/Steve_Klabnik_The_Rust_Programming_Language_2nd_Ed?id=a8l9EAAAQBAJ)  
