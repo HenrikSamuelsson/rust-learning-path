@@ -1,18 +1,20 @@
 # Rust Windows Installation
 
-## References
+Rust needs to be installed on the computer to be used for development of a Rust project. This section discusses installation of Rust on a computer running the Windows operating system.
 
-Klabnik S, Nichols C, (2023). *The Rust Programming language, 2nd Edition*, San Francisco: No Starch Press, Inc.
+## Rustup
 
-## Rustup Installation
+rustup is an installer for the programming language Rust. rustup provides installers for multiple operating systems including Windows. rustup is also used to update Rust to new versions as well as to uninstall Rust
 
-TODO
-
-## Rustup Update
+### Rustup Rust Installation
 
 TODO
 
-## Rustup Uninstall
+### Rustup Rust Update
+
+TODO
+
+### Rustup Rust Uninstall
 
 To uninstall Rust open a shell and run the command `rustup self uninstall` and follow the instructions.
 
@@ -36,3 +38,10 @@ info: rustup is uninstalled
 
 C:\>
 ```
+
+## References
+
+Klabnik S, Nichols C, (2023). *The Rust Programming language, 2nd Edition*, San Francisco: No Starch Press, Inc.  
+
+rustup. (n.d.). *rustup is an installer for
+the systems programming language Rust*. Retrieved 2023-09-27 from [https://rustup.rs/](https://rustup.rs/)  
