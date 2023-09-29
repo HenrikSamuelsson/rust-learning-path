@@ -129,7 +129,7 @@ C:\>
 
 ## References
 
-Klabnik S, Nichols C, (2023). *The Rust Programming language, 2nd Edition*, San Francisco: No Starch Press, Inc.  
+Klabnik S, Nichols C, (2023). *The Rust Programming language, 2nd Edition*, San Francisco: No Starch Press, Inc.
 
 rustup. (n.d.). *rustup is an installer for
-the systems programming language Rust*. Retrieved 2023-09-27 from [https://rustup.rs/](https://rustup.rs/)  
+the systems programming language Rust*. Retrieved 2023-09-27 from [https://rustup.rs/](https://rustup.rs/)
