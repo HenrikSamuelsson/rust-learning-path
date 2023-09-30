@@ -12,14 +12,27 @@ cargo fmt
 
 ## Try rustfmt
 
+As an example of running rustfmt start out with the following incorrectly formatted Rust source code. This code compiles but have multiple issues, incorrect indentation, trailing spaces, and strange placing of parentheses. But the code will still compile.
+
 ```rust
-fn   
+fn
 
-main()
-        {
-println!    ("Hello, world!");
+main  (
+    
+)
+        {   
+println!         ("Hello, world!"  )   ;   
 }
+```
 
+To fix the formatting of the above code, in a terminal window, navigate to the folder that holds the Cargo.toml for the code. When in this folder execute the command `cargo fmt`. This will cause cargo to run rustfmt.
+
+The source code will formatted to the below version that conforms with the community guidelines on how to write Rust code.
+
+```rust
+fn main() {
+    println!("Hello, world!");
+}
 ```
 
 ## References
