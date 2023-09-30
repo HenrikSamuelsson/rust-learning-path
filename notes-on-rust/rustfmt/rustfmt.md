@@ -7,7 +7,19 @@ A Rust installer, like rustup, will typically include rustfmt by default.
 rustfmt can be run in a terminal by the use of cargo. Use the following command to format the code in the current crate:
 
 ```txt
-cargo format
+cargo fmt
+```
+
+## Try rustfmt
+
+```rust
+fn   
+
+main()
+        {
+println!    ("Hello, world!");
+}
+
 ```
 
 ## References
