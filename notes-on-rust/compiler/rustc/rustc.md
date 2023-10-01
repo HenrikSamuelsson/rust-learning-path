@@ -23,3 +23,5 @@ cd C:\github\rust-learning-path\notes-on-rust\compiler\rustc
 mkdir rust-project
 cd rust-project
 ```
+
+There are of course multiple other ways to create an empty folder on a computer, such as using a file explorer. The exact way used to create the folder does not matter as long as the end result is an new empty folder with a known location.
