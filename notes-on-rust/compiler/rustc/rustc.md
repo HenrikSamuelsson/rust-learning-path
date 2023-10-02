@@ -52,3 +52,23 @@ Mode                 LastWriteTime         Length Name
 -a----        2023-10-02     06:36             48 main.rs
 
 ```
+
+## Compilation
+
+The sourced created in the previous section can be compiled using the Rust compiler that is called `rustc`. If in a  folder with Rust source code in a power shell terminal type `rustc` and then the name of the file to be compiled.
+
+Below is a compilation example on a Windows computer. Note how an executable file called `main.exe` is created by the compiler upon successful compilation.
+
+```txt
+PS C:\github\rust-learning-path\notes-on-rust\compiler\rustc\rust-project> rustc .\main.rs
+PS C:\github\rust-learning-path\notes-on-rust\compiler\rustc\rust-project> ls
+
+    Directory: C:\github\rust-learning-path\notes-on-rust\compiler\rustc\rust-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2023-10-02     10:14         164352 main.exe
+-a----        2023-10-02     10:14        1372160 main.pdb
+-a----        2023-10-02     06:36             48 main.rs
+```
