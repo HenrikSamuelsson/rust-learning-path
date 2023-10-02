@@ -25,3 +25,30 @@ cd rust-project
 ```
 
 There are of course multiple other ways to create an empty folder on a computer, such as using a file explorer. The exact way used to create the folder does not matter as long as the end result is an new empty folder with a known location.
+
+### Create Rust Source Code
+
+The Rust Compiler shall be provided a piece of source code to compile. We write the following Rust code in a text editor.
+
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+
+Save the code in a file called `main.rs` inside the folder created in the previous step.
+
+There should now be a single file in the folder. This can be verified by listing the folder content. Example of this in a power shell terminal:
+
+```txt
+PS C:\github\rust-learning-path\notes-on-rust\compiler\rustc\rust-project> ls
+
+
+    Directory: C:\github\rust-learning-path\notes-on-rust\compiler\rustc\rust-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2023-10-02     06:36             48 main.rs
+
+```
