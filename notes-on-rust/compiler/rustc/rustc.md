@@ -8,7 +8,7 @@ Rust programs must be compiled before they can be executed. Compilation means th
 
 ## Compilation Steps
 
-### Project Folder
+### Project Folder Creation
 
 Shall create an empty folder dedicated just for content that will be created in this exercise.
 
@@ -26,7 +26,7 @@ cd rust-project
 
 There are of course multiple other ways to create an empty folder on a computer, such as using a file explorer. The exact way used to create the folder does not matter as long as the end result is an new empty folder with a known location.
 
-### Create Rust Source Code
+### Source Code Creation
 
 The Rust Compiler shall be provided a piece of source code to compile. We write the following Rust code in a text editor.
 
@@ -71,4 +71,19 @@ Mode                 LastWriteTime         Length Name
 -a----        2023-10-02     10:14         164352 main.exe
 -a----        2023-10-02     10:14        1372160 main.pdb
 -a----        2023-10-02     06:36             48 main.rs
+```
+
+## Program Execution
+
+The compiler created the executable `main.exe` for us during the compilation process. This can be now be executed, a fancy word for run, from for example a power shell terminal.
+
+If not already in the same folder as the `main.exe`, start by moving into the directory and then type `.\main.exe` to execute the program.
+
+A test run is presented below including the expected `Hello, world!` output from the program.
+
+```txt
+PS C:\github\rust-learning-path> cd .\notes-on-rust\compiler\rustc\rust-project\
+PS C:\github\rust-learning-path\notes-on-rust\compiler\rustc\rust-project> .\main.exe
+Hello, world!
+PS C:\github\rust-learning-path\notes-on-rust\compiler\rustc\rust-project> 
 ```
