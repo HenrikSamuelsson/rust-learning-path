@@ -25,13 +25,17 @@ Mode                 LastWriteTime         Length Name
 -a----        2023-10-06     06:49            558 cargo-compile.md
 ```
 
-Then when being in the folder where we want the new project we use cargo to create a new project here, we choose the name `rust_test` for our project:
+Then, when being in the folder where we want the new project, we use cargo to create a new project with the command `cargo new rust_test`. The `rust_test` part of the command is the name that we have chosen for this project.
+
+Below is an example of running cargo to generate a project:
 
 ```txt
 PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo> cargo new rust_test  
      Created binary (application) `rust_test` package
 PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo>
 ```
+
+After cargo project creation there will be a new folder, in this case called `rust_test`, that in turn contains files and folders that make up a complete Rust project prepared for future development.
 
 ## References
 
