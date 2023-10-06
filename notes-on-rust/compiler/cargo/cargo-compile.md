@@ -35,7 +35,7 @@ PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo> cargo new rust_tes
 PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo>
 ```
 
-After cargo project creation there will be a new folder, in this case called `rust_test`, that in turn contains files and folders that make up a complete Rust project prepared for future development.
+After cargo project creation there will be a new folder, in this case called `rust_test`, that in turn contains files and folders that make up a complete Rust project, ready for future development.
 
 ## References
 
