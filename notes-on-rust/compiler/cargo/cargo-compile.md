@@ -1,8 +1,8 @@
 # Compiling With Cargo
 
-It is here explained how to write and compile a simple Rust program using Cargo.
+It is here explained how to create, compile and run a simple Rust program using Cargo.
 
-Cargo is a package Manager for Rust. Cargo can do a lot besides compile Rust source code. In this section we will keep it basic and just look into how to use cargo to compile a very simple Rust project.
+Cargo is a package Manager for Rust. Cargo can do a lot besides compile Rust source code. In this section we will keep it basic and just briefly look into how to use cargo to create a simple but fully runnables Rust application.
 
 ## Compilation Steps
 
@@ -37,7 +37,7 @@ PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo>
 
 After cargo project creation there will be a new folder, in this case called `rust_test`, that in turn contains files and folders that make up a complete Rust project, ready for future development.
 
-## Cargo Compile
+### Compilation
 
 Cargo will when creating a new project also create the source code for a "Hello, world!" application. Before this application can be run it needs to be compiled to translate the source code to machine code that our computer can execute. Cargo can be used to compile with the command `cargo build` that shall be invoked in a terminal window when in the project folder of the project to be compiled.
 
