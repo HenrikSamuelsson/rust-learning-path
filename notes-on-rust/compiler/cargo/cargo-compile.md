@@ -6,7 +6,7 @@ Cargo is a package Manager for Rust. Cargo can do a lot besides compile Rust sou
 
 ## Compilation Steps
 
-### Project Folder Creation
+### Project Creation
 
 In a terminal move to the folder where to create a new Rust project.
 
@@ -27,7 +27,7 @@ Mode                 LastWriteTime         Length Name
 
 Then, when being in the folder where we want the new project, we use cargo to create a new project with the command `cargo new rust_test`. The `rust_test` part of the command is the name that we have chosen for this project.
 
-Below is an example of running cargo to generate a project:
+Below is an example of running cargo to generate the project by the use of PowerShell on a computer running Windows:
 
 ```txt
 PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo> cargo new rust_test  
@@ -36,6 +36,21 @@ PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo>
 ```
 
 After cargo project creation there will be a new folder, in this case called `rust_test`, that in turn contains files and folders that make up a complete Rust project, ready for future development.
+
+## Cargo Compile
+
+Cargo will when creating a new project also create the source code for a "Hello, world!" application. Before this application can be run it needs to be compiled to translate the source code to machine code that our computer can execute. Cargo can be used to compile with the command `cargo build` that shall be invoked in a terminal window when in the project folder of the project to be compiled.
+
+```txt
+PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo\rust_test> cargo build
+   Compiling rust_test v0.1.0 (C:\github\rust-learning-path\notes-on-rust\compiler\cargo\rust_test)  
+    Finished dev [unoptimized + debuginfo] target(s) in 3.42s
+PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo\rust_test>
+```
+
+After running `cargo build` there will be additional content in the project and one of the artefacts will be a new runnable application.
+
+
 
 ## References
 
