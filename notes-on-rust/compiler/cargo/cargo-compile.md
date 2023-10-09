@@ -25,7 +25,7 @@ Mode                 LastWriteTime         Length Name
 -a----        2023-10-06     06:49            558 cargo-compile.md
 ```
 
-Then, when being in the folder where we want the new project, we use cargo to create a new project with the command `cargo new rust_test`. The `rust_test` part of the command is the name that we have chosen for this project.
+Then, when being in the folder where we want to place the new project, use cargo to create a new project with the command `cargo new rust_test`. The `rust_test` part of the command is the chosen name that for this project.
 
 Below is an example of running cargo to generate the project by the use of PowerShell on a computer running Windows:
 
