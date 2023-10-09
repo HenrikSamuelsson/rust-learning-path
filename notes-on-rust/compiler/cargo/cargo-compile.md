@@ -39,7 +39,7 @@ After cargo project creation there will be a new folder, in this case called `ru
 
 ### Compilation
 
-Cargo will when creating a new project also create the source code for a "Hello, world!" application. Before this application can be run it needs to be compiled to translate the source code to machine code that our computer can execute. Cargo can be used to compile with the command `cargo build` that shall be invoked in a terminal window when in the project folder of the project to be compiled.
+Cargo will when creating a new project also create complete source code for a "Hello, world!" application. Before this application can be run it needs to be compiled to translate the source code to machine code that our computer can execute. Cargo can be used to compile with the command `cargo build` that shall be invoked in a terminal window when in the project folder of the project to be compiled.
 
 ```txt
 PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo\rust_test> cargo build
@@ -50,7 +50,19 @@ PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo\rust_test>
 
 After running `cargo build` there will be additional content in the project and one of the artefacts will be a new runnable application.
 
+### Execution
 
+The application can after being compiled be executed, also known as running the application. One way to start the execution is to use the command `cargo run`. As before, for this command to work it need to be invoked from within the project folder.
+
+Example of executing the application from a PowerShell terminal on a Windows computer:
+
+```txt
+PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo\rust_test> cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.23s
+     Running `target\debug\rust_test.exe`
+Hello, world!
+PS C:\github\rust-learning-path\notes-on-rust\compiler\cargo\rust_test>
+```
 
 ## References
 
