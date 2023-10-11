@@ -12,4 +12,12 @@ let num = 5;
 
 ## Expression Statements
 
-TODO
+An expression statement is one that evaluates an expression and ignores its result. As a rule, an expression statement's purpose is to trigger the effects of evaluating its expression.
+
+```Rust
+v.pop();          // Ignore the element returned from pop
+```
+
+## References
+
+TODO Add the The Rust Referenc as a reference :-)
