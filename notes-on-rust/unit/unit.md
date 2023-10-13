@@ -1,13 +1,19 @@
 # Unit Type
 
-Rust have a primitive type denoted by `()`, it also goes by the name unit type. The unit type can not carry any information by design, it has exactly one value `()`.
+Rust have a primitive type denoted by `()`, that goes by the name *unit*.
 
-The purpose of the unit type is to have a value to use as result type when there is no meaningful value to use.
+The unit can by design not carry any information, it has exactly one value `()`.
 
-A use case is to have a function that returns `()`. It also so that a function will implicitly return `()` if leaving out what the function shall return.
+The purpose of the unit type is to have a value to use as result type when there is no other more meaningful value to use.
 
-TODO Examples
+A function can return `()`. It also so that a function that leaves out the return type will implicitly return `()`.
+
+Minimal example function called `foo` that will return `()`:
+
+```Rust
+fn foo()->() {}
+```
 
 ## Reference
 
-TODO
+https://stackoverflow.com/a/75197630/686720
