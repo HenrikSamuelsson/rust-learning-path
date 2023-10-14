@@ -16,4 +16,4 @@ fn foo()->() {}
 
 ## Reference
 
-https://stackoverflow.com/a/75197630/686720
+[https://stackoverflow.com/a/75197630/686720](https://stackoverflow.com/a/75197630/686720)  
