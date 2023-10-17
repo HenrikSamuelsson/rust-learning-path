@@ -9,6 +9,7 @@
         "println",
         "Rustacean",
         "rustfmt",
+        "struct",
         "unoptimized",
         "USERPROFILE"
     ]
