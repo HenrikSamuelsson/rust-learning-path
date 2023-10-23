@@ -15,3 +15,11 @@ In other programming languages a crate would be known as a library or a package.
 ## Crate Root
 
 A crate can include multiple files organised in a tree structure that can have multiple source files. The source file that the Rust compiler starts from is known as the `crate root`. The root in a binary crate will be found in `src/main.rs`, and the root of a library crate is found in `src/lib.rs`.
+
+## Package
+
+Crates can be placed together to form a package. A package must include at least one crate. A package can have several binary crates but only one library crate.
+
+## References
+
+TODO
