@@ -24,3 +24,4 @@ The goal is to evaluate the currently available resources for learning the Rust 
 ### Courses
 
 [Comprehensive Rust](https://google.github.io/comprehensive-rust/)  
+[Take your first steps with Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/)  
