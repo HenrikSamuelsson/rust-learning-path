@@ -2,6 +2,12 @@
 
 Rust needs to be installed on the computer to be used for development of a Rust project. This section discusses installation of Rust on a computer running the Windows operating system.
 
+## C++ Build Tools
+
+On Windows a set of C++ Visual Studio build tools are required when developing in Rust. These can be downloaded from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+
+TODO add note on what parts to choose in the installer
+
 ## Rustup
 
 rustup is an installer for the programming language Rust. rustup provides installers for multiple operating systems, including Windows. rustup is also used to update Rust to new versions as well as to uninstall Rust
