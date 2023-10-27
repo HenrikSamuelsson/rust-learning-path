@@ -6,14 +6,14 @@ Rust needs to be installed on the computer to be used for development of a Rust 
 
 A set of C++ Visual Studio build tools are required when developing in Rust. These can be downloaded from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 
-When running the installer of the build tools there will be  a pane with components to choose to install. Choose at least the following:
+When running the installer of the build tools there will be  a pane with components to choose to install. Choose at least the components in the following list:
 
-- Desktop development with C++
-  - Included
+- Desktop development with C++ (a package that Rust requires)
+  - Included (by default)
     - C++ Build Tools core features
     - C++ 2022 Redistributable Update
     - C++ core desktop features
-  - Optional
+  - Optional (that shall be chosen due to required by Rust)
     - MSVC ...
     - Windows 11 SDK ...
     - C++ CMake tools for Windows
