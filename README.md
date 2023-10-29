@@ -33,4 +33,5 @@ The goal is to evaluate the currently available resources for learning the Rust 
 ### Embedded Rust
 
 [Embedded Rust documentation](https://docs.rust-embedded.org/), portal with links on embedded Rust info  
+[Awesome Embedded Rust](https://github.com/rust-embedded/awesome-embedded-rust#hal-implementation-crates), curated list of embedded Rust resources  
 [probe-rs9](https://probe.rs/), an embedded debugging toolkit for Rust projects  
