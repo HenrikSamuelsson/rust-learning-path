@@ -32,4 +32,5 @@ The goal is to evaluate the currently available resources for learning the Rust 
 
 ### Embedded Rust
 
-[probe-rs9](https://probe.rs/), an embedded debugging toolkit for Rust projects
+[Embedded Rust documentation](https://docs.rust-embedded.org/), portal with links on embedded Rust info  
+[probe-rs9](https://probe.rs/), an embedded debugging toolkit for Rust projects  
