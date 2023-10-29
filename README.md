@@ -29,3 +29,7 @@ The goal is to evaluate the currently available resources for learning the Rust 
 ### Git Repositories
 
 [nRF-Rust / micro:bit](https://github.com/nrf-rs/microbit)  
+
+### Embedded Rust
+
+[probe-rs9](https://probe.rs/), an embedded debugging toolkit for Rust projects
