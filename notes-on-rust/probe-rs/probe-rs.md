@@ -1,11 +1,11 @@
 # Probe-RS
 
-Probe-RS is an embedded debugging toolkit written in Rust.
+[Probe-RS](https://probe.rs/) is an embedded debugging toolkit written in Rust.
 
 ## Tools Introduction
 
-- cargo-flash is a cargo extension that replaces `cargo run`
-- cargo-embed is a more advanced version of cargo-flash supporting RTT terminal and GDB server
+- `cargo-flash` is a cargo extension that replaces `cargo run`
+- `cargo-embed` is a more advanced version of `cargo-flash` supporting RTT terminal and GDB server
 - probe-rs VS Code extension enabling interactive debugging
 
 ### Cargo Embed
