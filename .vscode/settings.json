@@ -9,6 +9,7 @@
         "Miri",
         "println",
         "Rustacean",
+        "rustdoc",
         "rustfmt",
         "struct",
         "unoptimized",
